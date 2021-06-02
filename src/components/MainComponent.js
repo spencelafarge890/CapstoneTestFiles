@@ -3,6 +3,7 @@ import {Switch, Route, Redirect, withRouter} from 'react-router-dom';
 import {connect} from 'react-redux';
 import {actions} from 'react-redux-form';
 import {HomePage} from './HomePageComponent';
+import {Header} from './HeaderComponent';
 
 const mapStateToProps = (state) => {
 	return {
